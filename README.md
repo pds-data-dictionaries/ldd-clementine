@@ -1,30 +1,31 @@
-# {LDD Name} Local Data Dictionary (LDD)
+# Clementine Local Data Dictionary (LDD)
 
-The {LDD Name} dictionary [enter description here]
+The CLementine dictionary mission dictionary contains a class with attributes specific to the Deep Space Program Science Experiment, including the Clementine orbiter and its instruments. This dictionary was created for the migration of Clementine data products from PDS3 to PDS4.
 
-LDD Steward: [enter steward node here]
+LDD Steward: Imaging
 
-## Releases
+## Current Source
 
-![LDD Automation with PDSEN CI Bot](https://github.com/pds-data-dictionaries/ldd-template/workflows/LDD%20Automation%20with%20PDSEN%20CI%20Bot/badge.svg) [TODO - replace with this repo badge]
+Only one LDD source version is kept such that it can be managed by github.
 
-* **Stable Release** (the latest released LDDs) - https://pds.nasa.gov/datastandards/dictionaries/
-* **Unstable Release** (the latest working, unstable build) - See the `build/development` 
+- [src](src)
 
+## Versions
+
+A Local Data Dictionary (LDD) is built for selected versions of the [PDS4 Information Model](https://pds.nasa.gov/pds4/doc/im/).
+The build process insures compatiblity of the LDD with the core information model.
+
+## Builds
+
+This LDD has been built for the following versions of the PDS4 information models.
+
+- [dev](build/development)
+- [builds](build)
+	
 # Documentation
 
 * **User Guide:** TBD
 * **Other PDS Data Dictionaries Documentation:** https://pds-data-dictionaries.github.io/
-
-## Propose Updates
-
-See the [LDD Update Process](https://pds-data-dictionaries.github.io/development/ldd-update.html)
-
-## Implement
-
-To implement changes the LDD, simply update the IngestLDD under the `src/` directory, commit to a branch, push the branch to Github, and create a Pull Request. The [Github Action CI/CD](https://pds-data-dictionaries.github.io/development/ldd-build.html) will take care of the auto-generation of the schemas and schematrons.
-
-For more information see the [LDD Build Process](https://pds-data-dictionaries.github.io/development/ldd-build.html)
 
 ## Notes
 
@@ -33,7 +34,7 @@ Each build is auto-generated using Github Actions, PDS4 LDDTool, and Validate To
 
 You can manually run [LDDTool](https://nasa-pds.github.io/pds4-information-model/model-lddtool/index.html) on the IngestLDD using the following command:
 ```
-lddtool -lpsnJ MY_IngestLDD.xml
+lddtool -lpsnJ PDS4_CLIPPER_IngestLDD.xml
 ```
 
 
