@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 XML/Schema for Name Space Id:example  Version:1.0.0.0 - Fri Jan 08 23:32:36 UTC 2021 -->
+  <!-- PDS4 XML/Schema for Name Space Id:example  Version:1.0.0.0 - Thu Jun 17 16:18:28 UTC 2021 -->
   <!-- Generated from the PDS4 Information Model Version 1.15.0.0 - System Build 11a -->
   <!-- *** This PDS4 product schema is an operational deliverable. *** -->
   <!--                                                                           -->
   <!--               Dictionary Stack                                            -->
   <!-- 1.15.0.0 - pds: - Common Dictionary                                       -->
   <!-- 1.0.0.0 - example: - Example LDD                                          -->
-  <!--   file:/home/runner/work/ldd-template/ldd-template/src/PDS4_EXAMPLE_Inges -->
+  <!--   file:/home/runner/work/ldd-clementine/ldd-clementine/src/PDS4_EXAMPLE_I -->
   <!--                                                                           -->
   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="http://pds.nasa.gov/pds4/example/v1"
