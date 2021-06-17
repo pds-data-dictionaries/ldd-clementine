@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:clementine  Version:1.0.0.0 - Thu Jun 17 21:56:00 UTC 2021 -->
-  <!-- Generated from the PDS4 Information Model Version 1.16.0.0 - System Build 11.1 -->
+  <!-- PDS4 Schematron for Name Space Id:clementine  Version:1.0.0.0 - Thu Jun 17 22:21:32 UTC 2021 -->
+  <!-- Generated from the PDS4 Information Model Version 1.15.0.0 - System Build 11a -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 
@@ -45,9 +45,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="clementine:Clementine_Parameters/clementine:cryocooler_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>clementine:Clementine_Parameters/clementine:cryocooler_duration/clementine:cryocooler_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
